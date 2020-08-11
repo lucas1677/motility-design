@@ -3,7 +3,7 @@ const path = require('path');
 
 const config = {
   mode: 'production',
-  entry: './src/index.ts',
+  entry: './src/index.js',
   output: {
     path: path.join(__dirname, '/dist'),
     filename: 'index.js',
