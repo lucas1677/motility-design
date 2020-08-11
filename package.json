@@ -16,12 +16,17 @@
   ],
   "dependencies": {
     "@emotion/core": "^10.0.22",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "ahooks": "^2.4.0",
+    "mobx": "^5.15.5",
+    "mobx-react": "^6.2.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-grid-layout": "^1.0.0"
   },
   "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
@@ -36,6 +41,7 @@
     "@typescript-eslint/parser": "^2.5.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
+    "css-loader": "^4.2.1",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
@@ -46,6 +52,7 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "source-map-loader": "^0.2.4",
+    "style-loader": "^1.2.1",
     "typescript": "^3.6.4",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
