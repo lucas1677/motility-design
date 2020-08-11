@@ -1,6 +1,7 @@
 {
   "name": "motility-design",
-  "version": "1.0.4",
+  "group": "motility",
+  "version": "1.0.5",
   "description": "A basic tool component lib",
   "main": "./dist/index.js",
   "scripts": {
