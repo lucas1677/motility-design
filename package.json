@@ -1,19 +1,23 @@
 {
-  "name": "react-library-starter",
-  "version": "0.0.1",
-  "description": "A starter for React component libraries",
+  "name": "motility-design",
+  "version": "1.0.1",
+  "description": "A basic tool component lib",
   "main": "./dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js --color",
     "build:lib": "webpack --config webpack.prod.config.js",
-    "build:docs": "webpack --config webpack.docs.config.js"
+    "build:docs": "webpack --config webpack.docs.config.js",
+    "prepublish": "npm run build:lib"
   },
-  "author": "Teddy Ni",
-  "repository": "https://github.com/Teddarific/react-library-starter",
+  "author": "Uncle Shao",
+  "repository": "https://github.com/lucas1677/motility-design.git",
   "license": "MIT",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "http://192.168.1.25:8081/repository/npm-fe-hosted/"
+  },
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "ahooks": "^2.4.0",
