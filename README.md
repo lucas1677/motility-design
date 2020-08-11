@@ -9,7 +9,7 @@
 To get started, simply clone this repo:
 
 ```
-git clone https://github.com/Teddarific/react-lib-starter.git
+git clone git@github.com:lucas1677/motility-design.git
 ```
 
 Rename the new repo to the name of your library, and go through the `package.json` to fill out your own details as well.
